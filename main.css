@@ -1,0 +1,41 @@
+header {
+  background-color: black;
+  display: block;
+}
+nav {
+  padding: 1em;
+  padding-left: 0;
+  position: relative;
+}
+a {
+  color: lightgrey;
+  padding: 1em;
+  text-decoration: none;
+}
+a:hover {
+  background-color: white;
+}
+
+.dropdowncontent {
+  position: relative;
+  clear: both;
+  float: left;
+}
+
+section {
+  display: none;
+  float:left;
+  width: 150px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 75px;
+}
+
+a.dropdownlink:hover ~ section {
+  display: block;
+}
+
+section:hover {
+  display: block;
+}
