@@ -13,13 +13,14 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: white;
+  background-color: limegreen;
 }
 
 .dropdowncontent {
   position: relative;
   clear: both;
   float: left;
+  width: 118px;
 }
 
 section {
